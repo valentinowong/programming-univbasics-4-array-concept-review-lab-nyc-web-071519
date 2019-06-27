@@ -9,7 +9,7 @@ def find_element_index(array, value_to_find)
 end
 
 def find_max_value(array)
-  num = 0
+  num = nil
   array.length.times do |max|
     if array[max] > num
       num = array[max]
@@ -19,7 +19,7 @@ def find_max_value(array)
 end
 
 def find_min_value(array)
-  num = 0
+  num = nil
   array.length.times do |min|
     if array[min] < num
       num = array[min]
